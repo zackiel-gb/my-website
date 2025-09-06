@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="home.css">
+    
+    <title>My First Portfolio</title>
+</head>
+<body>
+   <div class="container-fluid main_containerweb">
+       <div class="row p-5" >
+           <div class="col-md-12  ">
+               <nav class="navbar navbar-expand-lg  fixed-top ">
+                   <div class="container-fluid ">
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                     </button>
+                        <span class="navbar-text  navtext">
+                         Gabriel G. De Guzman
+                        </span>
+                        <div class="collapse navbar-collapse  " id="navbarNavAltMarkup">
+                            <div class="navbar-nav ">
+                                <a class="nav-link " href="index.html">Home</a>
+                                <a class="nav-link" href="aboutme.html">About me</a>
+                                <a class="nav-link" href="contact.html">Contacts</a>
+                            </div>  
+                        </div>
+                   </div>
+                </nav>
+           </div>
+        </div>
+       <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center ">
+                        <img src="img/DSC_6901 (2).JPG" class="img-fluid gradpic" alt="..." width="300" height="200" >    
+                    </div>
+                </div>    
+            </div>
+            <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-12">
+                        <div class="text txt">
+                            <p><span style="color: black; font-size: 20px; font-weight: 600;">Hi, I'm Gabriel G. De Guzman</span></p>
+                            <p><span>Aspiring Web Developer | Practicing <br> 
+                             HTML, CSS & JAVASCRIPT</span></p>
+                        </div>
+                        <swiper-container class="mySwiper" id="myswiper1" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+                            slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+                            coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+                            <swiper-slide>
+                               <img src="img/htmlimage.png" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img src="img/cssimage.png" />
+                            </swiper-slide>
+                            <swiper-slide>
+                                <img src="img/javascrptimg.png" />
+                            </swiper-slide>
+                        </swiper-container>
+                    </div>
+                </div>
+            </div>
+       </div>
+   </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>

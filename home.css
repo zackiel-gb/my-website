@@ -1,0 +1,58 @@
+      body{ 
+         background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); 
+      }
+      .gradpic{
+          height: 60%;
+          width: 60%;
+          border: 2px solid white;
+          border-radius: 50%;
+        }
+
+        .navbar .nav-link {
+          color: white ;
+        }
+
+        .navbar .nav-link:hover {
+          color: #00D4FF; 
+        }
+        .navbar{
+          background-color: #7796cc;
+          
+        }
+        .navtext{
+          color: aliceblue;
+          font-weight: bold;
+          position: relative;
+          left: 250px;
+          
+        }
+        .navbar-collapse{
+          position: relative;
+          left: 600px;
+        }
+        .txt{
+          color: black;
+        }
+
+
+      /*swiper */
+
+    swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      swiper-slide {
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(to top, #330867 0%,  #30cfd0 100%);
+        border-radius: 25px;
+        width: 250px;
+        height: 250px;
+      }
+
+      swiper-slide img{
+        display: block;
+        width: 100%;
+        
+      }

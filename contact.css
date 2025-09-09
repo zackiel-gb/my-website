@@ -46,7 +46,7 @@ body{
         margin-top: 10px;
       }
       form {
-      background: #fff;
+      background-image: linear-gradient(to top, #330867 0%,  #30cfd0 100%);
       padding: 25px;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -81,7 +81,7 @@ body{
     form button {
       width: 100%;
       padding: 12px;
-      background: #007bff;
+      background: #7796cc;
       color: white;
       border: none;
       border-radius: 8px;
@@ -91,6 +91,52 @@ body{
       transition: background 0.3s;
     }
 
-    form button:hover {
-      background: #0056b3;
+    
+
+    @media(max-width: 1920px){
+      .con_web{
+        display: block;
+      }
+      .con_mble{
+        display: none;
+      }
+    }
+    @media(max-width: 768px){
+      .con_mble{
+        display: block;
+      }
+      .con_web{
+        display: none;
+      }
+    }
+    .navmobile{
+      background-color: #7796cc;
+     }
+     .offcanvas-body{
+      background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); 
+     }
+     .navbar-toggler, 
+     .btn-close{
+      background-color: #fbc2eb;
+      color: #a6c1ee;
+     }
+     .offcanvas-header{
+      color: whitesmoke;
+      background-color: #7796cc;
+     }
+    .email_mble{
+      width: 50px;
+      position: relative;
+      right: 100px;
+      
+    }
+    .call_mble{
+      width: 50px;
+      position: relative;
+      right: 100px;
+    }
+    .txt_mble{
+      position: relative;
+      left: 55px;
+      bottom: 40px;
     }

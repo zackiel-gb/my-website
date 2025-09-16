@@ -65,6 +65,17 @@
           display: none;
         }
       }
+
+      .text{
+      transform: translateY(-50px); /* Start above */
+      animation: dropdown 0.9s ease forwards;
+      }
+      @keyframes dropdown {
+     to {
+     opacity: 1;
+     transform: translateY(0); /* Drop to normal place */
+       }
+    }
      /*MOBILE CSS*/
      .navmobile{
       background-color: #7796cc;

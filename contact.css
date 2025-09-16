@@ -90,6 +90,17 @@ body{
       cursor: pointer;
       transition: background 0.3s;
     }
+    /* animation web//mble */
+    .form{
+      transform: translateY(-50px); /* Start above */
+      animation: dropdown 0.9s ease forwards;
+    }
+     @keyframes dropdown {
+     to {
+    opacity: 1;
+    transform: translateY(0); /* Drop to normal place */
+       }
+    }
 
     
 
@@ -109,6 +120,7 @@ body{
         display: none;
       }
     }
+    /*Mobile*/
     .navmobile{
       background-color: #7796cc;
      }
@@ -125,18 +137,19 @@ body{
       background-color: #7796cc;
      }
     .email_mble{
-      width: 50px;
+      width: 40px;
       position: relative;
       right: 100px;
       
     }
     .call_mble{
-      width: 50px;
+      width: 40px;
       position: relative;
       right: 100px;
     }
     .txt_mble{
       position: relative;
       left: 55px;
-      bottom: 40px;
+      bottom: 30px;
+      font-size: 12px;
     }

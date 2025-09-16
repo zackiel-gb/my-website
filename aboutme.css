@@ -135,9 +135,17 @@
        transform: translateY(-50px); /* Start above */
       animation: dropdown 0.7s ease forwards;
      }  
+     
+     /*WebText_IMG // mobileTXT transition*/
+     .plmun,
+     .shs,
+     .elem,
      .text,
      .text2,
-     .text3{
+     .text3,
+     .plmun-text,
+     .shs-text,
+     .elem-text{
       transform: translateY(-50px); /* Start above */
       animation: dropdown 0.9s ease forwards;
      }

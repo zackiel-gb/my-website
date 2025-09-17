@@ -59,7 +59,7 @@
                 
             </div>
             <div class="col-md-6 form ">
-                <form>
+                <form id="contactForm">
                     <label for="email"><span style="color: whitesmoke;">Email:</span></label><br>
                     <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
 
@@ -68,6 +68,20 @@
 
                     <button class="btn btn-primary" type="submit">Send Message</button>
                 </form>
+
+                <script>
+                  document.getElementById("contactForm").addEventListener("submit", function(event) {
+                  event.preventDefault(); // stop the page from refreshing
+
+                  const email = document.getElementById("email").value;
+                  const message = document.getElementById("message").value;
+
+                  console.log("Email:", email);
+                  console.log("Message:", message);
+
+                  alert("Message sent successfully (demo only)!");
+                  });
+                </script>
 
             </div>
         </div>
